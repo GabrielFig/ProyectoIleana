@@ -1,0 +1,102 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background: url(../img/fondoBorroso.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat center top;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.login_box{
+    width: 320px;
+    height: 420px;
+    background: rgba(41, 156, 223, 0.596);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.568);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+.login_box h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+.login_box a{
+    margin: 0;
+    padding: 0px 110px 0px;
+    font-size: 20px;
+    font-weight: bolder;
+    transition: 0.5s ease-in;
+    text-decoration: none;
+    color: #fff;
+}
+.login_box a:hover{
+    color: rgb(3, 2, 2);
+        
+}
+.login_box label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+    height: 10px;
+    font-size: 25px;
+    
+}
+
+.login_box input{
+    width: 100%;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.login_box input[type="text"],
+.login_box input[type="password"] {
+        
+        border: none;
+        border-bottom: 1px solid #fff;
+        background: rgba(150, 225, 255, 0.829);
+        border-radius: 5px;
+        outline: none;
+        height: 40px;
+        color: #fff;
+        font-size: 20px;
+        transition: 0.5s ease-in;
+    
+}
+
+.login_box input[type="submit"] {
+    border: none;
+    outline: none;
+    font-size: 25px;
+    font-weight: bold;
+    height: 40px;
+    background:rgba(41, 156, 223, 0.596);
+    color: white;
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+    transition: 0.5s ease-in;
+}
+
+.login_box input[type="submit"]:hover{
+    color: rgb(3, 2, 2);
+}
+.login_box input[type="text"]:focus{
+    background: none;
+    box-shadow: none;
+    outline: none;
+
+}
+.login_box input[type="password"]:focus{
+    background: none;
+    box-shadow: none;
+    outline: none;
+
+}
+
